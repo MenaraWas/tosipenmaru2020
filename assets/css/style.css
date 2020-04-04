@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Questrial&display=swap');
+
+
+body{
+    background: #1B2B5F;
+    color: white;
+}
+a{
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: poppins; 
+    font-weight: bold;
+}
+/*Navbar Start*/
+.navbar{
+    padding: 0.5rem 1rem;
+    margin-top: 25px;
+}
+.navbar-brand{
+    margin-left:15px;
+    font-family: poppins;
+    font-size: 24px;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-nav{
+    font-family: 'questrial';
+}
+.nav-item{
+    margin-right : 15px;
+}
+.nav-item:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.btn{
+    background: #3B5CC1;
+    border: 0px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: questrial;
+}
+
+/*Navbar End */
+
+/*Banner Start*/
+#banner {
+    padding: 80px 0px;
+    position: relative;
+}
+.logo-banner {
+    height: 400px;
+}
+#banner .banner-text {
+    margin: 125px 0px;
+    width: 49.5%;
+}
