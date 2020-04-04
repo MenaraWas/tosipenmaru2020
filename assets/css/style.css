@@ -8,6 +8,11 @@ body{
 a{
     color: white;
 }
+p{
+    font-family: questrial;
+    color: white;
+    
+}
 h1, h2, h3, h4, h5, h6{
     font-family: poppins; 
     font-weight: bold;
@@ -42,6 +47,15 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 10px;
     font-family: questrial;
 }
+/*Sticky navbar*/
+.sticky {
+    background: #1B2B5F;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    transition: 0.5s;
+}
 
 /*Navbar End */
 
@@ -56,4 +70,7 @@ h1, h2, h3, h4, h5, h6{
 #banner .banner-text {
     margin: 125px 0px;
     width: 49.5%;
+}
+#banner .btn{
+    margin-right: 75px;
 }
