@@ -73,4 +73,60 @@ h1, h2, h3, h4, h5, h6{
 }
 #banner .btn{
     margin-right: 75px;
+    width: 150px;
+}
+/*Banner End*/
+
+/*content start*/
+.body-container{
+    margin-top: 50px;
+    padding: 0px 0px 3px;
+}
+#benefits{
+    margin-top: 50px;
+}
+#juara{
+    margin-top: 50px;
+}
+.section-title{
+    display: inline-block;
+}
+.section-subtitle{
+    margin-left: 50px;
+    display: inline-block;
+}
+.card-benefit{
+    margin-top: 50px;
+    margin-right: 30px;
+    background-color: #2C3D75;
+    width:28%;
+    display: inline-block;
+}
+.card-organized{
+    margin-top: 50px;
+    margin-right: 30px;
+    background-color: #2C3D75;
+    width:28%;
+    display: inline-block;
+}
+.card-text{
+    font-size: 24px;
+    text-align: center;
+}
+.organized{
+    margin-top:50px;
+}
+.organized-title{
+    text-align: center;
+    font-size: 24px;
+}
+.instansi .card-benefit{
+    margin-top: 0;
+}
+.card-organized img{
+    width: 75px;
+}
+.card-organized .card-text{
+    text-align: left;
+    display: inline-block;
 }
