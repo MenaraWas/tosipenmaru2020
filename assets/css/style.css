@@ -102,6 +102,15 @@ h1, h2, h3, h4, h5, h6{
     width:28%;
     display: inline-block;
 }
+.card-benefit img{
+    padding: 25px;
+    margin-left: 25%;
+    width: 150px;
+}
+.card-inside{
+    background-color: #4B5B91;
+    padding: 25px;
+}        
 .card-text{
     font-size: 24px;
     text-align: center;
