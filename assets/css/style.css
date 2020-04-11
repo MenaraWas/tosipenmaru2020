@@ -129,15 +129,14 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
 }
 .card-benefit{
+    text-align: center;
+    width: 100%;
     margin-top: 50px;
-    margin-right: 30px;
     background-color: #2C3D75;
-    width:28%;
     display: inline-block;
 }
 .card-benefit img{
     padding: 25px;
-    margin-left: 25%;
     width: 150px;
 }
 .card-inside{
