@@ -221,7 +221,7 @@ hr{
    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 177px 130px 33px 95px;
+    padding: 130px 130px 33px 95px;
 }
 .login100-pic{
     width: 316px;
@@ -317,7 +317,7 @@ button {
     background: 0 0;
 }
 .login100-form-btn {
-    font-family: Montserrat-Bold;
+    font-family: questrial;
     font-size: 15px;
     line-height: 1.5;
     color: #fff;
