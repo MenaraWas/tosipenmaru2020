@@ -17,6 +17,39 @@ h1, h2, h3, h4, h5, h6{
     font-family: poppins; 
     font-weight: bold;
 }
+
+/* Overwrite Bootstrap CSS Start*/
+.navbar-toggler{
+    border: 1px solid white;
+}
+@media(max-width: 992px){
+    .navbar-brand{
+        margin-left: 0px!important;
+    }
+    .banner-text.float-left,
+    .banner-img.float-right{
+        float: none!important;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    #banner .banner-text{
+        margin: 60px 0!important;
+        padding: 0 60px;
+        width: 100%!important;
+    }
+}
+/* Overwrite Bootstrap CSS Stop*/
+
+/* Some responsive tricks start*/
+@media(max-width: 550px){
+    .banner-img img{
+        height: 300px;
+        width: auto;
+    }
+}
+/* Some responsive tricks stop*/
+
 /*Navbar Start*/
 .navbar{
     padding: 0.5rem 1rem;
